@@ -1,0 +1,24 @@
+{
+  "name": "gas-comparison",
+  "version": "1.0.0",
+  "description": "Compare gas estimation methods",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha test/**/*.test.js"
+  },
+  "type": "module",
+  "keywords": [
+    "ethereum",
+    "gas",
+    "estimation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2"
+  }
+}
